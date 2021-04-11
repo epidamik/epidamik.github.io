@@ -1,0 +1,567 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>epiDAMIK</title>
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="global1.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3960302-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+$(document).ready(function(){
+
+    $("#toggle1").click(function(){
+       
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+        
+    });
+
+
+
+    
+    $("#toggle2").click(function(){
+        
+        
+
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+
+    });
+
+
+    
+    $("#toggle3").click(function(){
+        
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+
+    });
+
+    
+    $("#toggle4").click(function(){
+        
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+    });
+	
+	$("#toggle5").click(function(){
+        
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+    });
+	
+	$("#toggle6").click(function(){
+        
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+    });
+	
+	$("#toggle7").click(function(){
+        
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+    });
+	
+	$("#toggle8").click(function(){
+        
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+    });
+
+});
+</script>
+
+<style type="text/css">
+table{
+width:100%;
+}
+td
+{
+vertical-align:top;
+}
+</style>
+
+<style>
+
+#toggle1 {
+  width: 100%;
+}
+
+.sticky {
+  position: fixed;
+  overflow: hidden;
+  background-color: #60311b;
+    list-style:none;
+    margin:0;
+    padding:0;
+  top: 0;
+    text-align:center;
+    width:1040px;
+}
+
+.sticky a{
+    display:inline-block;
+    color: #f2f2f2;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.sticky li{
+    display:inline-block;
+}
+
+
+/* Main content */
+.main {
+    margin-top: 40px; /* Add a top margin to avoid content overlay */
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+   table-layout:fixed;
+}
+
+td, th {
+    border: 1px solid #8b898c;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+</style>
+
+
+
+<style type="text/css">
+  
+
+  /* Three columns side by side */
+.column {
+    float: left;
+    width: 42%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin-right: 50px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+.cardimage{
+width:85px;
+height:110px;
+float: left; 
+margin-right: 20px;
+/*margin-left: 20px;*/
+margin-top: 10px;
+
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:white;
+    text-align:left;
+    cursor: pointer;
+    margin-top:0px;
+    margin-bottom: 5px;
+}
+</style>
+
+
+
+
+    <!--
+    <div style="background-color:#5e7593; position:relative;">
+        -->
+<!--#8e2344 -->
+
+<!--
+<div style="background-color:#60311B; position:relative;">
+
+<div style="margin: 0px auto; width:900px;height: 190px; position:relative; ">
+
+<div style="position:absolute; left: 2px; top: 20px;">
+<span class="fullname">CS 6604: Fall 2015<br> Data Mining Large Networks <br>and Time-Series</span>
+
+<img style="position:absolute; left: 675px; width: 215px; height: 50px; top: 20px;" src="vtlogo-2.png" width="750" height="275" />
+
+</div>
+</div>
+
+</div>
+-->
+
+</head>
+
+<body style="width:1040px; padding:auto; margin:20px auto auto auto;">
+
+
+<ul id="nav">
+  <!--<li><a href="index.html"><img style ="vertical-align:text-bottom;", src="smalllogoWhite.png" width="150"/></a></li> -->
+  <li><a href="index.html">Home</a></li>
+  <li><a href="program.html">Program</a></li>
+  <li><a href="dates.html">CFP & Dates</a></li>
+  <li><a href="committee.html">Committee</a></li>
+  <li><a href="organizers.html">Organizers</a></li>
+  <li><a href="https://twitter.com/badityap"><img style ="vertical-align:text-bottom;", src="twitter-white.png" width="30"/></a></li>
+</ul>
+
+<div style=" width:900px; height:60px; display:table; text-align:center;padding-top: 30px;">
+
+<!--<span class="fullname" style="font-family:arial;text-align:center; vertical-align:middle; display:table-cell;">CS 5525: Spring 2018</span>-->
+<!-- <img style="position:absolute; float:left: 435px; width: 200px; height: 32px; top: 15px;" src="vtGrey.jpg" width="750" height="150" /> -->
+
+<span class="fullname" style="font-family:arial;text-align:justify; vertical-align:top; display:table-cell;">
+
+
+<h1>Schedule</h1>
+</span>
+<div style="">
+ <img style="float:right;" src="textlogo2020.png" width="150"/></span>
+</div>
+</div>
+
+
+<table>
+  <colgroup><col width="180px">
+  </colgroup>
+  <tbody>
+  <tr>
+    <th><b>Time</b></th>
+    <th><b>Event</b></th>
+  </tr>
+  <tr>
+    <td>8:00am-8:10am</td>
+    <td>epiDAMIK opening Remarks</td>
+  </tr>
+  <tr>
+    <td>8:10am-9:00am</td>
+	<td>Invited Keynote 1. <i> Milind Tambe </i>
+    [<a id="toggle1" data-toggle="collapse" href="program.html#hideitem1">expand</a>]
+    <div id="hideitem1" class="collapse">
+<img class="cardimage" src="./milind.jpg" alt="ben"><br>
+Milind Tambe is Gordon McKay Professor of Computer Science and
+Director of Center for Research in Computation and Society at Harvard
+University; concurrently, he is also Director “AI for Social Good” at
+Google Research India. He is a recipient of the IJCAI John McCarthy
+Award, ACM/SIGAI Autonomous Agents Research Award from AAMAS, AAAI
+Robert S Engelmore Memorial Lecture award,  INFORMS Wagner prize,
+Rist Prize of the Military Operations Research Society, the
+Christopher Columbus Fellowship Foundation Homeland security award,
+AAMAS influential paper award, best paper awards at conferences
+including AAMAS, IJCAI, IVA. He has also received meritorious
+commendations and letters of appreciation from the US Coast Guard, Los
+Angeles Airport, and the US Federal Air Marshals Service.  Prof. Tambe
+is a fellow of AAAI and ACM.
+	</div><br>
+	Title: <i>AI for Public Health: Learning and Planning in the Data-to-Deployment Pipeline</i>
+      [<a id="toggle2" data-toggle="collapse" href="program.html#hideitem2">expand</a>]
+      <div id="hideitem2" class="collapse">
+      Abstract: With the maturing of AI and multiagent systems research, we
+have a tremendous opportunity to direct these advances towards
+addressing complex societal problems. In this talk, we focus on public
+health challenges such as HIV prevention and TB prevention, and
+present research advances in multiagent systems to address one key
+cross-cutting challenge: how to effectively deploy our limited
+intervention resources in these problem domains. We present results
+from large-scale studies and deployments, as well as lessons learned
+that we hope are of use to researchers who are interested in AI for
+Social Impact. Achieving social impact in these domains often requires
+methodological advances; we will highlight key research advances in
+topics such as influence maximization in social networks, multi-armed
+bandits and agent-based modeling for addressing challenges in public
+health. In pushing this research agenda, we believe AI can indeed play
+an important role in fighting social injustice and improving society.
+      </div>
+
+    </td>
+    
+  </tr>
+  <tr>
+    <td>9:00am-9:20pm</td>
+	<td>Contributed Talk 1.<br>
+      Paper: A Data-driven Approach to Identifying Asymptomatic C. diff Cases<br>
+     Authors: Hankyu Jang, Philip M. Polgreen, Alberto M. Segre, Daniel K. Sewell and Sriram V. Pemmaraju </td>
+  </tr>
+    <tr>
+    <td>9:20am-9:30pm</td>
+	<td>Contributed Talk 2.<br>
+      Paper: Neural Networks for Pulmonary Disease Diagnosis using Auditory and Demographic Information<br>
+     Authors: Morteza Hosseini, Haoran Ren, Hasib Rashid, Arnab Mazumder, Bharat Prakash and Tinoosh Mohsenin.</td>
+  </tr>
+    <tr>
+    <td>9:30am-10:00am</td>
+    <td>Stretch, Networking Break</td>
+  </tr>
+  <tr>
+  <td>10:00am-10:50am</td>
+	
+	<td>Invited Keynote 2. <i> Amy Wesolowski </i>
+    [<a id="toggle3" data-toggle="collapse" href="program.html#hideitem3">expand</a>]
+    <div id="hideitem3" class="collapse">
+  <img class="cardimage" src="./amy.jpg" alt="ben"><br>
+	Amy Wesolowski is an Assistant Professor in Epidemiology at the Johns Hopkins Bloomberg School of Public Health. She received her PhD from Carnegie Mellon University in Engineering and Public Policy. She then completed postdoctoral fellowships at Harvard TH Chan School of Public Health in the Center for Communicable Disease Dynamics and Princeton University in the Department of Ecology and Evolutionary Biology. Her group's research focuses on using novel data sets, particularly mobile phone data, to quantify human behavior and use this information to inform our understanding of infectious disease epidemiology. They work on a wide range of pathogens including malaria, dengue, measles, and rubella. This research is primarily focused in low and middle-income settings including a number of field projects in Kenya, Madagascar, Zambia, and Sri Lanka.
+	</div><br>
+	Title: <i>Use of novel data sets to understand the spatial spread of infectious diseases and allocation of public health interventions</i>
+      [<a id="toggle4" data-toggle="collapse" href="program.html#hideitem4">expand</a>]
+      <div id="hideitem4" class="collapse">
+      Abstract: Increasingly novel data sets are being used to inform our understanding of infectious disease epidemiology and the spatial spread of these pathogens. One clear example has been the use of data to quantify and model human travel patterns that has broad implications for predicting the spatial spread and populations at risk for disease outbreaks. Here, we will review the use of these types of data to understand human behavior and the implications for control programs covering a wide range of applications including malaria control and elimination, dengue surveillance and preparedness, and SARS-CoV-2 transmission models. We will highlight how and where these data may be integrated in public health and used to better inform models of disease transmission. 
+      </div>
+    </td>
+  </tr>
+  <tr>
+      <td>10:50am-11:00am</td>
+	<td>Contributed Talk 3.<br>
+      Paper: On Machine Learning-Based Short-Term Adjustment of Epidemiological Projections of COVID-19 in US. <br>
+     Authors: Sarah Kefayati, Hu Huang, Prithwish Chakraborty, Fred Roberts, Vishrawas Gopalakrishnan, Raman Srinivasan, Sayali Pethe, Piyush Madan, Ajay Deshpande, Xuan Liu, Jianying Hu and Gretchen Jackson.</td>
+  </tr>
+    <tr>
+    <td>11:00am-12:00pm</td>
+    <td>Discussion Panel. <br> Role of Data Science in pandemic response in the 21st century: What is it, are we there, (if not) how should we get there?</td>
+  </tr>
+  
+  </tr>
+    <tr>
+    <td>12:00pm-1:00pm</td>
+    <td>Lunch Break</td>
+  </tr>
+  
+  
+    <tr>
+	
+
+	
+  <td>1:00pm-1:50pm</td>
+	<td>Invited Keynote 3. <i> Adam Sadilek </i>
+    [<a id="toggle5" data-toggle="collapse" href="program.html#hideitem5">expand</a>]
+    <div id="hideitem5" class="collapse">
+  <img class="cardimage" src="./adam.jpg" alt="ben"><br>
+	Adam Sadilek focuses on large-scale machine learning applied to health and ecology at Google Research. Before that, he worked on speech understanding at Google[x]. Prior to joining Google, Adam was a co-founder of Fount.in, a machine learning startup providing automated text understanding.
+	</div><br>
+	Title: <i>Machine-Learned Epidemiology</i>
+      [<a id="toggle6" data-toggle="collapse" href="program.html#hideitem6">expand</a>]
+      <div id="hideitem6" class="collapse">
+      Abstract: Work in computational epidemiology to date has been limited by coarseness and lack of timeliness of observational data. Most existing models are based on hand-curated statistics that are often delayed, expensive to collect, and cover only limited jurisdictions. Our goal is to lift the state of the art in epidemiology to a new qualitative state, where real-time health predictions become feasible and actionable. We do this at scale by applying federated machine learning and secure aggregation to online data to infer what likely contributed to the contagion. In this talk, I will sample current projects at Google focusing on privacy-first epidemiology research and recent publications (e.g., nature.com/articles/s41467-019-12809-y, nature.com/articles/s41746-018-0045-1, science.sciencemag.org/content/sci/early/2020/07/16/science.abc5096, nature.com/articles/s41562-020-0875-0).
+      </div>
+    </td>
+  </tr>
+  </tr>
+
+
+  <tr>
+    <td>1:50pm-2:10pm</td>
+    <td>Contributed Talk 4.<br>
+      Paper: Examining COVID-19 Forecasting using Spatio-Temporal GNNs. <br>
+     Authors: Amol Kapoor, Xue Ben, Luyang Liu, Bryan Perozzi, Matt Barnes, Martin Blais and Shawn O'Banion. </td>
+  </tr>
+
+  <tr>
+    <td>2:10pm-2:30pm</td>
+    <td>Contributed Talk 5.<br>
+      Paper: Effectiveness and Compliance to Social Distancing During COVID-19. <br>
+     Authors: Kristi Bushman, Konstantinos Pelechrinis and Alexandros Labrinidis.</td>
+  </tr>
+
+
+  <tr>
+    <td>2:30pm-3pm</td>
+    <td>Stretch, Networking Break</td>
+  </tr>
+
+  <tr>
+    <td>3pm-3:50 pm</td>
+	<td>Invited Keynote 4. <i> Sara del Valle </i>
+    [<a id="toggle7" data-toggle="collapse" href="program.html#hideitem7">expand</a>]
+      <div id="hideitem7" class="collapse">
+        <img class="cardimage" src="./sara.jpg" alt="ben"><br>
+        Sara Del Valle is a scientist and Deputy Group leader for the Information Systems and Modeling Group at Los Alamos National Laboratory, where she works on the development of mathematical and computational models for infectious diseases. Her research focuses on using mathematical and computational models to improve our understanding of human behavior and the spread of infectious diseases. She has developed epidemiological models for many diseases including smallpox, anthrax, HIV, pertussis, MERS-CoV, malaria, dengue, influenza, Ebola, zika, chikungunya, and COVID-19. She has also worked on investigating the role of Internet data streams on monitoring emergent behavior during outbreaks and forecasting infectious diseases. Most recently, her team is investigating the role of large-scale data analytics such as satellite imagery, Internet data, climate, and census data on detecting, monitoring, and forecasting infectious diseases.
+
+      </div><br>
+	  Title: <i>Real-time Data Fusion to Guide Disease Forecasting Models</i>
+      [<a id="toggle8" data-toggle="collapse" href="'epidamik/program.html#hideitem8">expand</a>]
+      <div id="hideitem8" class="collapse">
+      Abstract: Globalization has created complex problems that can no longer be adequately understood and mitigated using traditional data analysis techniques and data sources. As such, there is a need for the integration of nontraditional data streams and approaches such as social media and machine learning to address these new challenges. In this talk, I will discuss how our team is applying approaches from the weather forecasting community including data collection, assimilating heterogeneous data streams into models, and quantifying uncertainty to forecast infectious diseases. In addition, I will demonstrate that although epidemic forecasting is still in its infancy, it’s a growing field with great potential and mathematical modeling will play a key role in making this happen.
+      </div>
+  </td></tr>
+
+    <tr><td>3:50pm-4:00pm</td>
+    <td>Closing Remaks </td>
+  </tr>
+
+  <tr>
+    <td>4:00pm-5:00pm</td>
+    <td>Poster Session. <br> Watch pre-recorded talks <a href="https://www.youtube.com/playlist?list=PLgyjaRukROV9BggqrZxpY-lXe-gkfb6iz"> here</a>.</td>
+  </tr>
+</tbody></table>
+
+
+
+
+
+
+<h1>List of Accepted Papers</h1>
+
+The workshop proceedings can be found <a href="epiDAMIK2020_Proceedings.pdf"> here</a>.
+
+<h2> Long Oral Papers </h2>
+<ul>
+    <li> Hankyu Jang, Philip M. Polgreen, Alberto M. Segre, Daniel K. Sewell and Sriram V. Pemmaraju. <i> A Data-driven Approach to Identifying Asymptomatic C. diff Cases </i>. </li>
+    <li> Amol Kapoor, Xue Ben, Luyang Liu, Bryan Perozzi, Matt Barnes, Martin Blais and Shawn O'Banion. <i>Examining COVID-19 Forecasting using Spatio-Temporal GNNs. </i></li>
+    <li> Kristi Bushman, Konstantinos Pelechrinis and Alexandros Labrinidis.<i> Effectiveness and Compliance to Social Distancing During COVID-19.</i></li>
+</ul>
+
+<h2> Short Oral Papers </h2>
+
+<ul>
+    <li> Morteza Hosseini, Haoran Ren, Hasib Rashid, Arnab Mazumder, Bharat Prakash and Tinoosh Mohsenin. <i> Neural Networks for Pulmonary Disease Diagnosis using Auditory and Demographic Information.</i></li>
+    <li> Sarah Kefayati, Hu Huang, Prithwish Chakraborty, Fred Roberts, Vishrawas Gopalakrishnan, Raman Srinivasan, Sayali Pethe, Piyush Madan, Ajay Deshpande, Xuan Liu, Jianying Hu and Gretchen Jackson. <i>On Machine Learning-Based Short-Term Adjustment of Epidemiological Projections of COVID-19 in US. </i></li>
+
+</ul>
+
+<h2> Poster Papers </h2>
+
+<ul>
+    <li> Catherine Ordun, Sanjay Purushotham and Edward Raff. <i> Exploratory Analysis of Covid-19 Tweets using Topic Modeling, UMAP, and DiGraphs. </i></li>
+    <li> Behnam Rahdari, Peter Brusilovsky, Khushboo Thaker and Hung K. Chau.<i> CovEx: An exploratory search system for COVID-19 scientific literature. </i> </li>
+    <li> Matias Apa, Maria Cecilia Faini, Mohammad Aliannejadi and Maria Soledad Pera. <i> A Canine Census to Develop Public Policy. </i></li>
+    <li> Tong Yang, Long Sha, Justin Li and Pengyu Hong.<i> Efficient Deep Learning Model for COVID-19 and Socioeconomic Insights. </i> </li>
+    <li> Yufei Wu.<i> What government supposed to do in the epidemic: from the perspective of China's stock market and disinformation. </i> </li>
+    <li> Alexander Rodriguez, Bijaya Adhikari, Naren Ramakrishnan, and B. Aditya Prakash.<i>Incorporating Expert Guidance in Epidemic Forecasting. </i></li>
+</ul>
+
+
+
+
+<div id="credit">
+<script language="javascript">
+
+
+var lastModDate = new Date(document.lastModified);
+document.write("Last updated by Bijaya Adhikari on: "+lastModDate);
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("nav");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</div>
+</div>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

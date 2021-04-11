@@ -72,14 +72,14 @@ margin-top: 50px;
 {
     height:15px;
   /*  width: 40px; */
-    text-align:left;
+    text-align:center;
     vertical-align:middle;
     padding:15px;
 }
 
 #amaTable td
 {
-    text-align:left;
+    text-align:center;
     vertical-align:middle;
 }
 
@@ -90,7 +90,7 @@ margin-top: 50px;
 
 #nav{
   overflow: hidden;
-  background-color:  #bd2c0d ; /* #006666;*/
+  background-color: #545454; /* #bd2c0d #006666;*/
     list-style:none;
     margin:0;
     padding:0;
@@ -103,7 +103,7 @@ margin-top: 50px;
 #nav a{
     display:inline-block;
     color: white;
-  text-align:left;
+  text-align:center;
   padding: 12px 5px;
   text-decoration: none;
   font-size: 20px;
