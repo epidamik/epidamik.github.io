@@ -1,0 +1,526 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>epiDAMIK</title>
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="global1.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3960302-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+$(document).ready(function(){
+
+    $("#toggle1").click(function(){
+       
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+        
+    });
+
+
+
+    
+    $("#toggle2").click(function(){
+        
+        
+
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+
+    });
+
+
+    
+    $("#toggle3").click(function(){
+        
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+
+    });
+
+    
+    $("#toggle4").click(function(){
+        
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+    });
+	
+	$("#toggle5").click(function(){
+        
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+    });
+	
+	$("#toggle6").click(function(){
+        
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+    });
+	
+	$("#toggle7").click(function(){
+        
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+    });
+	
+	$("#toggle8").click(function(){
+        
+        
+        var $this = $(this);
+        $this.toggleClass('SeeMore');
+        if($this.hasClass('SeeMore')){
+          $this.text('collapse');     
+        } else {
+          $this.text('expand');
+        }
+    });
+
+});
+</script>
+
+<style type="text/css">
+table{
+width:100%;
+}
+td
+{
+vertical-align:top;
+}
+</style>
+
+<style>
+
+#toggle1 {
+  width: 100%;
+}
+
+.sticky {
+  position: fixed;
+  overflow: hidden;
+  background-color: #4183e6f5;
+    list-style:none;
+    margin:0;
+    padding:0;
+  top: 0;
+    text-align:center;
+    width:1040px;
+}
+
+.sticky a{
+    display:inline-block;
+    color: #f2f2f2;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.sticky li{
+    display:inline-block;
+}
+
+
+/* Main content */
+.main {
+    margin-top: 40px; /* Add a top margin to avoid content overlay */
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+   table-layout:fixed;
+}
+
+td, th {
+    border: 1px solid #8b898c;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+</style>
+
+
+
+<style type="text/css">
+  
+
+  /* Three columns side by side */
+.column {
+    float: left;
+    width: 42%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin-right: 50px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+.cardimage{
+width:100px;
+height:110px;
+float: left; 
+margin-right: 20px;
+/*margin-left: 20px;*/
+margin-top: 10px;
+
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:white;
+    text-align:left;
+    cursor: pointer;
+    margin-top:0px;
+    margin-bottom: 5px;
+}
+</style>
+
+
+
+
+    <!--
+    <div style="background-color:#5e7593; position:relative;">
+        -->
+<!--#8e2344 -->
+
+<!--
+<div style="background-color:#60311B; position:relative;">
+
+<div style="margin: 0px auto; width:900px;height: 190px; position:relative; ">
+
+<div style="position:absolute; left: 2px; top: 20px;">
+<span class="fullname">CS 6604: Fall 2015<br> Data Mining Large Networks <br>and Time-Series</span>
+
+<img style="position:absolute; left: 675px; width: 215px; height: 50px; top: 20px;" src="vtlogo-2.png" width="750" height="275" />
+
+</div>
+</div>
+
+</div>
+-->
+
+</head>
+
+<body style="width:1040px; padding:auto; margin:20px auto auto auto;">
+
+
+<ul id="nav">
+  <!--<li><a href="index.html"><img style ="vertical-align:text-bottom;", src="smalllogoWhite.png" width="150"/></a></li> -->
+  <li><a href="index.html">Home</a></li>
+  <li><a href="program.html">Program</a></li>
+  <li><a href="dates.html">CFP & Dates</a></li>
+  <li><a href="committee.html">Committee</a></li>
+  <li><a href="organizers.html">Organizers</a></li>
+  <li><a href="https://twitter.com/EpidamikW"><img style ="vertical-align:text-bottom;", src="twitter-white.png" width="30"/></a></li>
+</ul>
+
+<div style=" width:900px; height:60px; display:table; text-align:center;padding-top: 30px;">
+
+<!--<span class="fullname" style="font-family:arial;text-align:center; vertical-align:middle; display:table-cell;">CS 5525: Spring 2018</span>-->
+<!-- <img style="position:absolute; float:left: 435px; width: 200px; height: 32px; top: 15px;" src="vtGrey.jpg" width="750" height="150" /> -->
+
+<span class="fullname" style="font-family:arial;text-align:justify; vertical-align:top; display:table-cell;">
+
+
+<h1>Schedule</h1>
+</span>
+<div style="">
+ <img style="float:right;" src="textlogo2023.png" width="200"/></span>
+</div>
+</div>
+
+<p>
+Workshop will be held on August 7, 2023, 8:30 am - 5 pm PDT. 
+All times below are in PDT.
+</p>	
+
+
+<table>
+  <colgroup><col width="180px">
+  </colgroup>
+  <tbody>
+  <tr>
+    <th><b>Time</b></th>
+    <th><b>Event</b></th>
+  </tr>
+  <tr>
+    <td>8:30am-8:40am</td>
+    <td>epiDAMIK opening Remarks</td>
+  </tr>
+
+  <tr>
+    <td>8:40am-9:40am</td>
+	<td>Contributed Talk 1<br>
+      Paper: Mobility data improve forecasting of COVID-19 incidence trends using Graph Neural Networks <a href="https://openreview.net/forum?id=n1ODM_LrRs">[PDF]</a><br>
+     Authors: Simon Witzke, Noel Danz, Katharina Baum, Bernhard Y Renard 
+  <br><br>
+	Contributed Talk 2<br>
+      Paper: Hierarchical Clustering and Multivariate Forecasting for Health Econometrics <a href="https://openreview.net/forum?id=Unyf3QsNmx">[PDF]</a><br>
+     Authors: Atika Rahman Paddo, Sadia Afreen, Saptarshi Purkayastha 
+  <br><br>
+	Contributed Talk 3<br>
+      Paper: Consistent Comparison of Symptom-based Methods for COVID-19 Infection Detection <a href="https://openreview.net/forum?id=PhAOtEHLo1">[PDF]</a><br>
+     Authors: Jesús Rufino, Juan Marcos Ramirez, José Aguilar, Carlos Baquero, Jaya Champati, Davide Frey, Rosa Elvira Lillo, Antonio Fernandez Anta 
+  </td>
+  </tr>
+
+  <tr>
+    <td>9:40am-10:00am</td>
+    <td>Coffee Break & Poster Setup </td>
+  </tr>
+
+  <tr>
+    <td>10:00am-11:00am</td>
+	<td>Contributed Talk 4<br>
+      Paper: Unlocking the Potential of Public Datasets: Wastewater-Based Epidemiological Forecasting During COVID-19 <a href="https://openreview.net/forum?id=J8Gc5acxME">[PDF]</a><br>
+     Authors: Zhicheng Zhang, Sonja Neumeister, Angel Desai, Maimuna S. Majumder, Fei Fang 
+  <br><br>
+  Contributed Talk 5<br>
+      Paper: Data Collection, Management, Analysis and Decision Support During COVID-19: A Retrospective from The Ohio State University <a href="https://openreview.net/forum?id=BNU_N-7EIR">[PDF]</a><br>
+     Authors: Namrata Banerji, Steve Chang, Andrew Perrault, Tanya Berger-Wolf, Mikkel Quam 
+  <br><br>
+	Contributed Talk 6<br>
+      Paper: Spectral Clustering Identifies High-risk Opioid Tapering Trajectories Associated with Adverse Events <a href="https://openreview.net/forum?id=qkDCSV-RMt">[PDF]</a><br>
+     Authors: Monika Ray, Joshua J. Fenton, Patrick Romano 
+  </td>
+  </tr>
+
+  <tr>
+    <td>11:00am-12:00pm</td>
+  <td>Invited Keynote 1. <i> Emma Pierson </i>
+    [<a id="toggle1" data-toggle="collapse" href="program.html#hideitem1">expand</a>]
+    <div id="hideitem1" class="collapse">
+  <img class="cardimage" src="./emma.jpeg" alt="ben"><br>
+	Emma Pierson is an assistant professor of computer science at the Jacobs Technion-Cornell Institute at Cornell Tech and the Technion, and a computer science field member at Cornell University. She holds a secondary joint appointment as an Assistant Professor of Population Health Sciences at Weill Cornell Medical College. She develops data science and machine learning methods to study inequality and healthcare. Her work has been recognized by best paper, poster, and talk awards, an NSF CAREER award, a Rhodes Scholarship, Hertz Fellowship, Rising Star in EECS, MIT Technology Review 35 Innovators Under 35, and Forbes 30 Under 30 in Science. Her research has been published at venues including ICML, KDD, WWW, Nature, and Nature Medicine, and she has also written for The New York Times, FiveThirtyEight, Wired, and various other publications.
+	</div><br>
+	Title: <i>Using machine learning to increase equity in healthcare and public health</i>
+      [<a id="toggle2" data-toggle="collapse" href="program.html#hideitem2">expand</a>]
+      <div id="hideitem2" class="collapse">
+      Abstract: Our society remains profoundly unequal. This talk discusses how data science and machine learning can be used to combat inequality in health care and public health, focusing on epidemic-related applications.
+      </div>
+    </td>
+  </tr>
+  
+  <tr>
+  <td>12:00pm-1:00pm</td>
+  <td>Lunch Break</td>
+  </tr>
+
+  <tr>
+    <td>1:00pm-2:00pm</td>
+	<td>Contributed Talk 7<br>
+      Paper: Using Reinforcement Learning for Multi-Objective Cluster-Level NPI Optimization <a href="https://openreview.net/forum?id=Ql4CuaB3-D">[PDF]</a><br>
+     Authors: Xueqiao Peng, Jiaqi Xu, Xi Chen, Dinh Song An Nguyen, Andrew Perrault
+  <br><br>
+  Contributed Talk 8<br>
+      Paper:A Snapshot of COVID-19 Incidence, Hospitalizations, and Mortality from Indirect Survey Data in China in January 2023 <a href="https://openreview.net/forum?id=rMSlLb33Gb">[PDF]</a><br>
+     Authors: Juan Marcos Ramirez, Sergio Diaz-Aranda, Jose Aguilar, Oluwasegun Ojo, Rosa Elvira Lillo, Antonio Fernandez Anta
+  <br><br>
+  Contributed Talk 9<br>
+      Paper: Physics-informed neural networks integrating compartmental model for analyzing COVID-19 transmission dynamics <a href="https://openreview.net/forum?id=u9zVZTg_Ky">[PDF]</a><br>
+     Authors: Xiao Ning, Yongyue Wei, Feng Chen 
+  </td>
+  </tr>
+
+  <tr>
+    <td>2:00pm-3:00pm</td>
+  <td>Invited Keynote 2. <i> Samuel Scarpino </i>
+    [<a id="toggle4" data-toggle="collapse" href="program.html#hideitem4">expand</a>]
+    <div id="hideitem4" class="collapse">
+  <img class="cardimage" src="./scarpino.jpg" alt="ben"><br>
+	Samuel V. Scarpino, PhD, is the director of AI + life sciences at Northeastern University and a professor of the practice in health and computer sciences. He holds appointments in Northeastern’s Institute for Experiential AI and Network Science Institute. In recognition for his contributions to complex systems science, he was named a fellow of the ISI Foundation in 2017, an external professor at the Santa Fe Institute in 2020, and an external faculty member at the Vermont Complex System Center in 2021.
+  <br>
+  Prior to joining Northeastern, Scarpino was the vice president of pathogen surveillance at The Rockefeller Foundation, chief strategy officer at Dharma Platform (a social impact, technology startup), and co-founded a data science initiative called Global.health, which was backed by Google and The Rockefeller Foundation. 
+  <br>
+  Scarpino's research has been published in journals such as Nature, Science, The Lancet Global Health, Nature Medicine, PNAS, Clinical Infectious Diseases, and Nature Physics. The New York Times, Wired, the Boston Globe, National Geographic, and numerous other venues have covered his work. He earned his doctoral degree from The University of Texas at Austin in 2013 and was Santa Fe Institute Omidyar Fellow from 2013 - 2016.
+	</div><br>
+	Title: <i>On The Shape of Epidemics</i>
+      [<a id="toggle5" data-toggle="collapse" href="program.html#hideitem5">expand</a>]
+      <div id="hideitem5" class="collapse">
+      Abstract: The SARS-CoV-2 pandemic upended our societies and re-shaped the way we go about our day-to-day lives—from how we work and interact to the way we buy groceries and attend school. In this talk, I will present a series of studies quantifying how our behavior, mobility patterns, and social networks shaped and were shaped by COVID-19. Leveraging global data sets that represent billions of people, I will show how myriad factors interacted to structure the course of the pandemic. Then, by connecting the mathematics of epidemics to classical theory from ecology, I will outline a strategy for linking high-resolution mobility data to contact tracing that can precent future outbreaks from growing into pandemics. Finally, using the lessons learned from COVID-19, I discuss how we might balance the ethical and privacy considerations around high-resolution data with their critical role in responding to epidemics. 
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td>3:00pm-3:30pm</td>
+    <td>Coffee Break & Poster Session </td>
+  </tr>
+
+  <tr>
+    <td>3:30pm-4:10pm</td>
+  <td>Discussion Panel.<br>
+    Enhancing data availability and quality in the post-emergency era of COVID-19: unlocking new opportunities for data-driven approaches.
+  </td>
+  </tr>
+
+  <tr>
+    <td>4:10pm-4:50pm</td>
+	<td>Contributed Talk 10<br>
+      Paper: Risk-Based Ring Vaccination: A Strategy for Pandemic Control and Vaccine Allocation <a href="https://openreview.net/forum?id=N0qlvDjnEv">[PDF]</a><br>
+     Authors: Dinh Song An Nguyen, Marie-Laure Charpignon, Kathryn L Schaber, Maimuna S. Majumder, Andrew Perrault 
+  <br><br>
+	Contributed Talk 11<br>
+      Paper: Accurate Measures of Vaccination and Concerns of Vaccine Holdouts from Web Search Logs. <a href="https://openreview.net/forum?id=fhxHhXTnHc">[PDF]</a><br>
+     Authors: Serina Chang, Adam Fourney, Eric Horvitz 
+  </td>
+  </tr>
+
+  </tr>
+    <tr><td>4:50pm-5:00pm</td>
+    <td>Closing Remaks </td>
+  </tr>
+
+</tbody></table>
+
+
+<h1>Invited Keynote Speakers</h1>
+<ul>
+  <li> Emma Pierson, Cornell Tech </li>
+  <li> Samuel Scarpino, Northeastern University </li>
+</ul>
+
+<h1>List of Accepted Papers</h1>
+
+The workshop proceedings can be found <a href="https://openreview.net/group?id=KDD.org/2023/Workshop/epiDAMIK"> here</a>.
+
+<h2>Accepted Papers</h2>
+<ul>
+	<li><i>Spectral Clustering Identifies High-risk Opioid Tapering Trajectories Associated with Adverse Outcomes.</i> Monika Ray, Joshua J. Fenton, Patrick Romano</li>
+	<li><i>A Snapshot of COVID-19 Incidence, Hospitalizations, and Mortality from Indirect Survey Data in China in January 2023.</i> Juan Marcos Ramirez, Sergio Diaz, Jose Aguilar, Oluwasegun Ojo, Rosa Elvira Lillo, Antonio Fernandez Anta</li>
+	<li><i>Consistent Comparison of Symptom-based Methods for COVID-19 Infection Detection.</i> Jesús Rufino, Juan Marcos Ramirez, José Aguilar, Carlos Baquero, Jaya Champati, Davide Frey, Rosa Elvira Lillo, Antonio Fernandez Anta</li>
+	<li><i>Mobility data improve forecasting of COVID-19 incidence using Graph Neural Networks.</i> Simon Witzke, Noel Danz, Katharina Baum, Bernhard Y Renard</li>
+	<li><i>Accurate Measures of Vaccination and Concerns of Vaccine Holdouts from Web Search Logs.</i> Serina Chang, Adam Fourney, Eric Horvitz</li>
+	<li><i>Risk-Based Ring Vaccination: A Strategy for Pandemic Control and Vaccine Allocation.</i> Dinh Song An Nguyen, Marie-Laure Charpignon, Kathryn L Schaber, Maimuna S. Majumder, Andrew Perrault</li>
+	<li><i>Using Reinforcement Learning for Multi-Objective Cluster-Level NPI Optimization.</i> Xueqiao Peng, Jiaqi Xu, Xi Chen, Dinh Song An Nguyen, Andrew Perrault</li>
+	<li><i>Unlocking the Potential of Public Datasets: Wastewater-Based Epidemiological Forecasting During COVID-19.</i> Zhicheng Zhang, Sonja Neumeister, Angel Desai, Maimuna S. Majumder, Fei Fang</li>
+	<li><i>Hierarchical Clustering and Multivariate Forecasting for Health Econometrics.</i> Atika Rahman Paddo, Sadia Afreen, Saptarshi Purkayastha</li>
+	<li><i>Data Collection, Management, Analysis and Decision Support During COVID-19: A Retrospective from The Ohio State University.</i> Namrata Banerji, Steve Chang, Andrew Perrault, Tanya Berger-Wolf, Mikkel Quam</li>
+	<li><i>Physics-informed neural networks integrating compartmental model for analyzing COVID-19 transmission dynamics.</i> Xiao Ning, Yongyue Wei, Feng Chen</li>
+</ul>
+
+<div id="credit">
+<script language="javascript">
+
+
+var lastModDate = new Date(document.lastModified);
+document.write("Last updated by AR on: "+lastModDate);
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("nav");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</div>
+</div>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
