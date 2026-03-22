@@ -204,6 +204,7 @@ Topics of interest include, but are not limited to:
     border-collapse: collapse;
     width: 100%;
     font-size: 14px;
+    table-layout: fixed; /* important */
   }
 
   table.workshop-topics th,
@@ -225,6 +226,10 @@ Topics of interest include, but are not limited to:
 </style>
 
 <table class="workshop-topics">
+  <colgroup>
+    <col style="width: 60%;">
+    <col style="width: 40%;">
+  </colgroup>
   <thead>
     <tr>
       <th>Topic</th>
