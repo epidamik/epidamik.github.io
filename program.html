@@ -218,11 +218,16 @@ tr:nth-child(even) {
 .cardimage{
 width:110px;
 height:110px;
-float: left; 
+float: left;
 margin-right: 20px;
 /*margin-left: 20px;*/
 margin-top: 10px;
 margin-bottom: 10px;
+}
+
+/* Keep each floated keynote photo within its own speaker summary. */
+.keynote-summary {
+    display: flow-root;
 }
 
 /* Add some shadows to create a card effect */
